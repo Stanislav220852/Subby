@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     POSTGRES_HOST: str
     POSTGRES_PORT: int 
     POSTGRES_DB: str
+    TOKEN:str
     
     @property
     def DATABASE_URL(self) -> str:
